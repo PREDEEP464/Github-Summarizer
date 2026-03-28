@@ -1,9 +1,7 @@
 import axios from 'axios';
 
-// Use Vite proxy in development, direct URL in production
-const PROFILE_SUMMARY_API = import.meta.env.DEV 
-  ? '/api'  // Vite proxy (no CORS in dev)
-  : 'https://profile-summary-for-github.com/api';  // Direct call in production
+// Always call relative /api so both Vite dev proxy and Vercel rewrites can proxy requests.
+const PROFILE_SUMMARY_API = '/api';
 
 /**
  * Fetch complete GitHub profile summary from profile-summary-for-github API

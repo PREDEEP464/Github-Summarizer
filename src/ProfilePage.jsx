@@ -45,7 +45,7 @@ export default function ProfilePage() {
     navigate('/');
   };
 
-  
+
   return (
     <div className="min-h-screen bg-white dark:bg-slate-950 transition-colors duration-300">
       {/* Header with back button and theme toggle */}

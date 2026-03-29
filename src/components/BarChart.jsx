@@ -21,6 +21,9 @@ ChartJS.register(
 
 export default function BarChart({ title, data, color = 'rgb(59, 130, 246)' }) {
   const { theme } = useTheme();
+  const itemCount = Object.keys(data).length;
+  const normalizedItemCount = Math.max(itemCount, 10);
+  const chartHeight = Math.min(360, Math.max(160, normalizedItemCount * 24 + 56));
 
   const isDark = theme === 'dark';
   const textColor = isDark ? '#cbd5e1' : '#334155';
@@ -45,7 +48,7 @@ export default function BarChart({ title, data, color = 'rgb(59, 130, 246)' }) {
 
   const options = {
     responsive: true,
-    maintainAspectRatio: true,
+    maintainAspectRatio: false,
     indexAxis: 'y',
     plugins: {
       legend: {
@@ -97,7 +100,7 @@ export default function BarChart({ title, data, color = 'rgb(59, 130, 246)' }) {
 
   return (
     <div className="bg-slate-100 dark:bg-slate-800/50 border border-slate-300 dark:border-slate-700 rounded-lg p-4 hover:border-slate-400 dark:hover:border-slate-600 transition-colors">
-      <div className="h-64">
+      <div className="w-full" style={{ height: `${chartHeight}px` }}>
         <Bar data={chartData} options={options} />
       </div>
     </div>

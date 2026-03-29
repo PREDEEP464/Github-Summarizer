@@ -12,7 +12,7 @@ export default function ThemeToggle() {
   return (
     <button
       onClick={handleClick}
-      className="inline-flex items-center gap-2 px-3 py-2 rounded-lg bg-slate-200 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 hover:bg-slate-300 dark:hover:bg-slate-700 transition-all duration-300 shadow-sm hover:shadow-md"
+      className="inline-flex cursor-pointer items-center gap-2 px-3 py-2 rounded-lg bg-slate-200 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 hover:bg-slate-300 dark:hover:bg-slate-700 transition-all duration-300 shadow-sm hover:shadow-md"
       aria-label={label}
       title={label}
     >
@@ -25,7 +25,7 @@ export default function ThemeToggle() {
           <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
         </svg>
       )}
-      <span className="text-xs sm:text-sm font-medium text-slate-700 dark:text-slate-200 whitespace-nowrap">
+      <span className="hidden sm:inline text-xs sm:text-sm font-medium text-slate-700 dark:text-slate-200 whitespace-nowrap">
         {label}
       </span>
     </button>

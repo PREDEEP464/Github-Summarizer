@@ -59,7 +59,7 @@ export default function LandingPage() {
               />
               <button
                 type="submit"
-                className="px-8 py-4 bg-linear-to-r from-blue-500 to-purple-600 text-white font-semibold rounded-r-lg hover:from-blue-600 hover:to-purple-700 transition-all duration-300 flex items-center gap-2 whitespace-nowrap outline-none focus:outline-none focus:ring-0"
+                className="px-8 py-4 cursor-pointer bg-linear-to-r from-blue-500 to-purple-600 text-white font-semibold rounded-r-lg hover:from-blue-600 hover:to-purple-700 transition-all duration-300 flex items-center gap-2 whitespace-nowrap outline-none focus:outline-none focus:ring-0"
               >
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />

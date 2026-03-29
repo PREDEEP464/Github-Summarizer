@@ -12,7 +12,7 @@ export default function ThemeToggle() {
   return (
     <button
       onClick={handleClick}
-      className="inline-flex cursor-pointer items-center gap-2 px-3 py-2 rounded-lg bg-slate-200 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 hover:bg-slate-300 dark:hover:bg-slate-700 transition-all duration-300 shadow-sm hover:shadow-md"
+      className="inline-flex cursor-pointer items-center gap-2 px-3 py-2 rounded-lg bg-slate-200 dark:bg-slate-800 border-slate-300 dark:border-slate-700 hover:bg-slate-300 dark:hover:bg-slate-700 transition-all duration-300 shadow-sm hover:shadow-md"
       aria-label={label}
       title={label}
     >

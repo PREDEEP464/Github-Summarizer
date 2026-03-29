@@ -53,7 +53,7 @@ export default function ProfilePage() {
         <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
           <button
             onClick={handleBackToHome}
-            className="flex cursor-pointer items-center gap-2 px-4 py-2 bg-slate-200 dark:bg-slate-600 hover:bg-slate-300 dark:hover:bg-slate-700 text-slate-700 dark:text-white rounded-lg transition-colors text-sm font-medium"
+            className="flex cursor-pointer items-center gap-2 px-4 py-2 bg-slate-200 dark:bg-slate-800 hover:bg-slate-300 dark:hover:bg-slate-700 text-slate-700 dark:text-white rounded-lg transition-colors text-sm font-medium"
             aria-label="Search Another Profile"
           >
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">

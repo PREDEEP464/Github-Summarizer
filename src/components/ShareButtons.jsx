@@ -26,7 +26,7 @@ export default function ShareButtons({ username }) {
       <button
         onClick={handleCopyLink}
         className={`px-4 py-2 cursor-pointer ${
-          copied ? 'bg-green-600 text-white dark:bg-green-600 dark:text-white' : 'bg-slate-200 text-slate-700 dark:bg-slate-600 dark:text-white hover:bg-slate-300 dark:hover:bg-slate-700'
+          copied ? 'bg-green-600 text-white dark:bg-green-600 dark:text-white' : 'bg-slate-200 text-slate-700 dark:bg-slate-800 dark:text-white hover:bg-slate-300 dark:hover:bg-slate-700'
         } text-sm font-medium rounded-lg transition-colors flex items-center gap-2`}
         aria-label={copied ? 'Copied!' : 'Copy Link'}
         title="Copy link"

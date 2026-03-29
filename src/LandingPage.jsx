@@ -22,7 +22,7 @@ export default function LandingPage() {
       <div className="flex flex-col items-center justify-center min-h-screen px-4">
         {/* GitHub Icon with Glow */}
         <div className="mb-8 relative pt-6">
-          <div className="absolute -inset-4 bg-gradient-to-r from-blue-500/20 to-purple-500/20 blur-3xl rounded-full"></div>
+          <div className="absolute -inset-4 bg-linear-to-r from-blue-500/20 to-purple-500/20 blur-3xl rounded-full"></div>
           <svg 
             className="w-32 h-32 text-slate-800 dark:text-slate-200 relative" 
             fill="currentColor" 
@@ -35,8 +35,8 @@ export default function LandingPage() {
         {/* Title */}
         <h1 className="text-5xl md:text-6xl font-bold leading-[1.15] text-slate-900 dark:text-white mb-4 text-center">
           GitHub Profile
-          <span className="block pb-1 text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-600">
-            Summary
+          <span className="block pb-1 text-transparent bg-clip-text bg-linear-to-r from-blue-500 to-purple-600">
+            Summarizer
           </span>
         </h1>
 
@@ -48,7 +48,7 @@ export default function LandingPage() {
         {/* Search Form */}
         <form onSubmit={handleSubmit} className="w-full max-w-md">
           <div className="relative group">
-            <div className="absolute -inset-1 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg blur opacity-25 group-hover:opacity-40 transition duration-300"></div>
+            <div className="absolute -inset-1 bg-linear-to-r from-blue-500 to-purple-600 rounded-lg blur opacity-25 group-hover:opacity-40 transition duration-300"></div>
             <div className="relative flex items-center">
               <input
                 type="text"
@@ -59,7 +59,7 @@ export default function LandingPage() {
               />
               <button
                 type="submit"
-                className="px-8 py-4 bg-gradient-to-r from-blue-500 to-purple-600 text-white font-semibold rounded-r-lg hover:from-blue-600 hover:to-purple-700 transition-all duration-300 flex items-center gap-2 whitespace-nowrap outline-none focus:outline-none focus:ring-0"
+                className="px-8 py-4 bg-linear-to-r from-blue-500 to-purple-600 text-white font-semibold rounded-r-lg hover:from-blue-600 hover:to-purple-700 transition-all duration-300 flex items-center gap-2 whitespace-nowrap outline-none focus:outline-none focus:ring-0"
               >
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />

@@ -69,7 +69,7 @@ export default function ProfilePage() {
 
       {/* Error State */}
       {error && (
-        <div className="min-h-screen flex items-center justify-center px-4 bg-gradient-to-br from-red-50 to-red-100 dark:from-slate-950 dark:to-slate-900">
+        <div className="min-h-screen flex items-center justify-center px-4 bg-linear-to-br from-red-50 to-red-100 dark:from-slate-950 dark:to-slate-900">
           <div className="text-center max-w-xl w-full">
             <div className="mb-6 flex justify-center">
               <div className="relative">
@@ -87,7 +87,7 @@ export default function ProfilePage() {
               </p>
               <button
                 onClick={handleBackToHome}
-                className="inline-flex items-center gap-2 px-6 py-2 bg-gradient-to-r from-red-600 to-red-500 hover:from-red-700 hover:to-red-600 text-white rounded-lg transition-colors font-medium"
+                className="inline-flex items-center gap-2 px-6 py-2 bg-linear-to-r from-red-600 to-red-500 hover:from-red-700 hover:to-red-600 text-white rounded-lg transition-colors font-medium"
               >
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
@@ -125,7 +125,7 @@ export default function ProfilePage() {
           {/* Language Distribution */}
           {processedData.languageStats && (
             <div>
-              <h2 className="text-lg font-bold text-slate-900 dark:text-white mb-3">📊 Language Distribution</h2>
+              <h2 className="text-lg font-bold text-slate-900 dark:text-white mb-3">Language Distribution</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                 {Object.keys(processedData.languageStats.byRepos).length > 0 && (
                   <DonutChart

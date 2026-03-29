@@ -3,6 +3,10 @@
     {
       "source": "/api/:path*",
       "destination": "https://profile-summary-for-github.com/api/:path*"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/"
     }
   ]
 }

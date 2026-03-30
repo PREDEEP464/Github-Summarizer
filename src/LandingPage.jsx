@@ -42,7 +42,7 @@ export default function LandingPage() {
 
         {/* Subtitle */}
         <p className="text-lg text-slate-600 dark:text-slate-400 mb-12 pt-6 text-center max-w-md">
-          Visualize your GitHub statistics with beautiful charts and insights
+         Transform your GitHub activity into stunning visual insights and meaningful analytics
         </p>
 
         {/* Search Form */}

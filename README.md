@@ -24,6 +24,7 @@ Explore comprehensive charts and statistics
 ## ✨ Features
 
 - **User Profile Search** - Search any GitHub user by username
+- **Dynamic URL Profiles** - Direct access: `/<username>` for instant GitHub insights
 - **Profile Statistics** - View repositories, followers, and following counts
 - **Interactive Charts**
   - Doughnut chart for language distribution
@@ -113,6 +114,23 @@ All charts are fully responsive and dynamically themed based on light/dark mode 
 4. **Share Profile**: Use the copy link or social share buttons
 5. **Toggle Theme**: Click the theme toggle in the top right
 6. **Search Another**: Click "Search Another Profile" to search for a different user
+
+## 🔗 Dynamic URL Access (Best Feature!)
+
+One of the best parts of this application is the **dynamic URL feature**! You can access any GitHub user's profile summary directly via URL without using the search bar:
+
+```
+https://github-prosum.vercel.app/<username>
+```
+
+**Perfect for:**
+- 📎 Sharing GitHub profiles directly in links
+- 💼 Including in portfolios or resumes
+- 🌐 Embedding in documentation or blogs
+- 👥 Quick profile sharing on social media
+- 🔍 Instant GitHub insights for any developer
+
+Just replace `<username>` with any valid GitHub username, and you'll get instant analytics and visualizations!
 
 ## 🐛 Error Handling
 

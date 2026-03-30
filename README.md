@@ -11,15 +11,15 @@ A beautiful, interactive web application that provides comprehensive analytics a
 
 ### Landing Page
 Search for any GitHub user with a beautiful, intuitive interface
-![Landing Page](./assets/landing.png)
+![Landing Page](./src/assets/Landing-page.jpg)
 
 ### Profile Page
 View detailed user information, stats, and commit history
-![Profile Page](./assets/profile.png)
+![Profile Page](./src/assets/Profile-page.jpg)
 
 ### Analytics Dashboard
 Explore comprehensive charts and statistics
-![Stats Page](./assets/stats.png)
+![Stats Page](./src/assets/Stats-page.jpg)
 
 ## ✨ Features
 

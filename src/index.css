@@ -26,6 +26,7 @@ html.dark {
   --scrollbar-thumb-hover-end: #8b5cf6;
 }
 
+
 * {
   scrollbar-color: var(--scrollbar-thumb-start) var(--scrollbar-track);
 }

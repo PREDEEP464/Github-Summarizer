@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import ThemeToggle from './components/ThemeToggle';
+import { Heart } from "lucide-react";
 
 export default function LandingPage() {
   const [username, setUsername] = useState('');
@@ -86,8 +87,10 @@ export default function LandingPage() {
 
         {/* Footer */}
         <div className="mt-16 text-center text-sm text-slate-500 dark:text-slate-400">
-          <p>
-            Made with ❤️ by{" "}
+          <p className="inline-flex items-center justify-center gap-1">
+            <span>Made with</span>
+            <Heart className="w-5 h-5 text-red-500 fill-current animate-pulse" />
+            <span>by</span>
             <a
               href="https://pred-folio.vercel.app"
               target="_blank"

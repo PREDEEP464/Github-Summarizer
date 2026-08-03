@@ -85,9 +85,19 @@ export default function LandingPage() {
         </div> */}
 
         {/* Footer */}
-        {/* <div className="mt-16 text-center text-sm text-slate-500 dark:text-slate-400">
-          <p>Powered by <a href="https://profile-summary-for-github.com" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Profile Summary for GitHub</a></p>
-        </div> */}
+        <div className="mt-16 text-center text-sm text-slate-500 dark:text-slate-400">
+          <p>
+            Made with ❤️ by{" "}
+            <a
+              href="https://pred-folio.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-500 hover:underline"
+            >
+              Predeep
+            </a>
+          </p>
+        </div>
       </div>
     </div>
   );
